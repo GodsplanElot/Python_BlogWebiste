@@ -9,12 +9,12 @@
         <h1>Posts Lists</h1>
 
         {% for post in posts %}
-            <article>
+            <article class="post">
                 <h2>{{ post.title}}</h2>
                 <p>{{ post.date }}</p>
                 <p>{{ post.body }}</p>
             </article>
-        {% {% endfor %}%}
+        {% endfor %}
     </section>
     
 {% endblock %}
