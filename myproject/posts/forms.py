@@ -1,4 +1,4 @@
-from django import form
+from django import forms
 from .import models
 
 class CreatePost(forms.ModelForm):
